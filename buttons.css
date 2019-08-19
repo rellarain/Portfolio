@@ -13,6 +13,7 @@ body {
    font-size: 20px;
    letter-spacing: 3px;
    text-shadow: 0px 0px 6px rgba(1, 82, 97, 0.747);
+   border-radius: 20px 0 20px 0;
 }
 #brutalist_button {
    margin: 15px 60px;
