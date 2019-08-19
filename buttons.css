@@ -1,0 +1,66 @@
+body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+   background: darkgray;
+}
+#material_button {
+   margin: 15px 60px;
+   width: 153px;
+   height: 54px;
+   background: linear-gradient(19.63deg, rgba(255, 255, 255, 0.315) 0%, rgba(200, 233, 243, 0.699) 25%, #A7E3F5 50%, rgba(255, 255, 255, 0.397) 100%);
+   border: none;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+   color: white;
+   font-size: 20px;
+   letter-spacing: 3px;
+   text-shadow: 0px 0px 6px rgba(1, 82, 97, 0.747);
+}
+#brutalist_button {
+   margin: 15px 60px;
+   border: 5px solid black;
+   height: 50px; 
+   width: 250px;
+   letter-spacing: 6px;
+   font-weight: bolder;
+   font-size: 30px;
+   padding-top: 5px;
+   background: white;
+}
+#flat_button {
+   margin: 15px 60px;
+   width: 260px;
+   height: 49px;
+   background: gray;
+   background-size: 400%;
+   border-radius: 60px;
+   border: none; 
+   color: white;
+   font-size: 20px;
+   letter-spacing: 5px;
+   font-weight: bold;
+   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.925);
+   line-height: 49px;
+   vertical-align: middle;
+   box-sizing: border-box;
+}
+#flat_button:hover {
+   background: linear-gradient(to right, red, orange, rgb(202, 202, 44), rgb(0, 199, 0), green, rgb(0, 0, 180), indigo, purple, red);
+   background-size: 500%;
+   animation: fade 8s linear infinite;
+}
+
+@keyframes fade {
+   0% 
+   {
+      background-position: 0%;
+      box-shadow: 0 0 15px white;
+   }
+   50%
+   {
+      box-shadow: 0 0 25px white;
+   }
+   100% 
+   {
+      background-position: 500%;
+      box-shadow: 0 0 15px white;
+   }
+}
