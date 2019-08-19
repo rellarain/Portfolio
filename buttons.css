@@ -6,13 +6,14 @@ body {
    margin: 15px 60px;
    width: 153px;
    height: 54px;
-   background: linear-gradient(19.63deg, rgba(255, 255, 255, 0.315) 0%, rgba(200, 233, 243, 0.699) 25%, #A7E3F5 50%, rgba(255, 255, 255, 0.397) 100%);
+   background: linear-gradient(19.63deg, rgba(255, 255, 255, 0.219) 0%, rgba(200, 233, 243, 0.527) 25%, rgba(167, 227, 245, 0.63) 50%, rgba(255, 255, 255, 0.226) 100%);
    border: none;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-   color: white;
+   color: rgba(255, 255, 255, 0.678);
+   box-shadow: 2px 2px rgba(45, 73, 80, 0.274);
    font-size: 20px;
    letter-spacing: 3px;
-   text-shadow: 0px 0px 6px rgba(1, 82, 97, 0.747);
+   text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.473);
    border-radius: 20px 0 20px 0;
 }
 #brutalist_button {
