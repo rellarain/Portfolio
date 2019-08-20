@@ -1,0 +1,20 @@
+
+header {
+   width: 100%;
+   position: absolute;
+   font-size: 65px;
+   font-family: 'Arvo', serif;
+   margin: 140px 0 65px 0;
+   text-align: center;
+   z-index: 2;
+   top: 20%;
+   color: rgb(92, 34, 70);
+   font-weight: 800
+}
+img {
+   position: absolute;
+   z-index: -1;
+   width: 60%;
+   left: 20%;
+   top: -180%;
+}
