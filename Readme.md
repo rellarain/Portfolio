@@ -15,7 +15,7 @@ Color scheme:
 
 
 Buttons:
-   Colorful flat design that becomes material; hover lifts the button off the page, and the text subtly glows; 5px rounderd corners, 30px height, 100px width, links should be these buttons, using the colors above
+   Colorful flat design that becomes material; hover lifts the button off the page, and the text subtly glows; 5px rounded corners, 30px height, 100px width, links should be these buttons, using the colors above
 
 Text:
    use, font, size, weight, letterspacing
