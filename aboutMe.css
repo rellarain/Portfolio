@@ -68,7 +68,7 @@ button:hover {
    top: -1px;
    width: 45%;
    letter-spacing: 2px;
-   margin: 19px 32.5%;
+   margin: 19px 27.5%;
    font-size: 18px;
    height: 32px;
    text-shadow: 0 0 12.5px rgba(255, 255, 255, 0.644), 0 0 5px rgba(255, 255, 255, 0.753), 0 0 2.5px rgba(255, 255, 255, 0.89);
@@ -145,7 +145,7 @@ button:hover {
 
 
 
-@media (max-width: 1245px){
+@media (max-width: 1017px){
 .barContainer div {
       height: 130px;
 }
@@ -186,7 +186,7 @@ button:hover {
 }
 
 
-@media (max-width: 764px){
+@media (max-width: 618px){
    .barContainer div {
       height: 160px;
    }
