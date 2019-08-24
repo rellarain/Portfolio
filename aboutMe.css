@@ -50,11 +50,11 @@ p {
    margin: 0 10%;
 }
 button {
-   margin: 20px 35% 20px 35%;
+   margin: 20px 30% 20px 30%;
    position: relative;
    color: rgba(0, 0, 0, 0.671);
    height: 30px;
-   width: 30%; 
+   width: 40%; 
    font-size: 16px;
    letter-spacing: 1px;
    border-radius: 5px; 
@@ -66,9 +66,9 @@ button:hover {
    box-shadow: 0 0 12.5px rgba(0, 0, 0, 0.657);
    color: rgb(255, 255, 255);
    top: -1px;
-   width: 32%;
+   width: 41%;
    letter-spacing: 2px;
-   margin: 19px 34%;
+   margin: 19px 29%;
    font-size: 18px;
    height: 32px;
    text-shadow: 0 0 12.5px rgba(255, 255, 255, 0.644), 0 0 5px rgba(255, 255, 255, 0.753), 0 0 2.5px rgba(255, 255, 255, 0.89);
