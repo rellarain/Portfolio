@@ -1,6 +1,8 @@
 body {
    padding: 0; 
    margin: 0;
+   width: 100%;
+   overflow-x: hidden;
 }
 /* Text */
 
@@ -49,14 +51,45 @@ p {
    margin: 0 10%;
 }
 button {
-   margin: 10px 10%;
+   margin: 20px 35% 20px 35%;
+   position: relative;
+   color: rgba(0, 0, 0, 0.671);
    height: 30px;
-   width: 150px; 
+   width: 30%; 
+   font-size: 16px;
+   letter-spacing: 1px;
    border-radius: 5px; 
    border: none;
    font-weight: bold;
+   transition: font-size 3s, height 3s, width 3s, margin 3s, top 3s, box-shadow 3s, text-shadow 3s, color 1s, letter-spacing 3s;
+}
+button:hover {
+   box-shadow: 0 0 12.5px rgba(0, 0, 0, 0.657);
+   color: rgb(255, 255, 255);
+   top: -1px;
+   width: 32%;
+   letter-spacing: 2px;
+   margin: 19px 34%;
+   font-size: 18px;
+   height: 32px;
+   text-shadow: 0 0 12.5px rgba(255, 255, 255, 0.644), 0 0 5px rgba(255, 255, 255, 0.753), 0 0 2.5px rgba(255, 255, 255, 0.89);
+}
+.purple {
+   line-height: 1.5;
+   background: rgba(164, 108, 172, 0.589);
 }
 
+.wine {
+   background: rgba(196, 82, 143, 0.521);
+}
+
+.coral {
+   background: rgba(246, 125, 125, 0.568);
+}
+
+.orange {
+   background: rgba(231, 138, 91, 0.568);
+}
 
 /* Bars */
 
@@ -103,22 +136,6 @@ button {
    background:linear-gradient(to right, rgba(176, 129, 162, 0.75), rgba(152, 112, 204, 0.75), rgba(176, 129, 162, 0.75));
 }
 
-.purple {
-   line-height: 1.5;
-   background: rgba(164, 108, 172, 0.589);
-}
-
-.wine {
-   background: rgba(196, 82, 143, 0.521);
-}
-
-.coral {
-   background: rgba(246, 125, 125, 0.568);
-}
-
-.orange {
-   background: rgba(231, 138, 91, 0.568);
-}
 
 
 
@@ -135,7 +152,8 @@ button {
 }
 .barContainer {
    height: 260px;
-   width: 400%;
+   width: 100%;
+   overflow: hidden;
 }
 
 .barContainer div:nth-child(1) {
@@ -175,6 +193,8 @@ button {
    }
    .barContainer {
       height: 360px;
+      width: 100%;
+      overflow: hidden;
    }
    .barContainer div:nth-child(1) {
       z-index: -2;
@@ -281,4 +301,3 @@ button {
    25% {transform: translateY(150px);}
    75% {transform: translateY(-200px);}
    100% {transform: translateY(0);}}
-}
